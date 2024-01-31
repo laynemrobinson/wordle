@@ -1,0 +1,33 @@
+.letterbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #565656;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.letterbox.empty {
+    border: 1px solid #bebebe;
+}
+
+.correctspot {
+    background-color: #148738 !important;
+    color: #fff !important;
+}
+
+.wrongspot {
+    background-color: #c89d4e !important;
+    color: #fff !important;
+}
+
+.nomatch {
+    background-color: #7d7d7d !important;
+    color: #fff !important;
+}
+
+.w-dd {
+    width: 150px;
+}

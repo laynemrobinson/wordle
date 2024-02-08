@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addGuess, addLetter, removeLetter, winGame, loseGame } from "../store";
 import { useWordChecker } from "react-word-checker";
 
+// word spell checker: https://classic.yarnpkg.com/en/package/react-word-checker
 const SpellCheck = (checkword) => {
   const { isLoading, wordExists } = useWordChecker("en");
   if (!isLoading) {

@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// random word generator: https://www.npmjs.com/package/is-word
+// random word generator: https://www.npmjs.com/package/random-words
 import { generate } from "random-words";
 
 const gameSlice = createSlice({
